@@ -14,7 +14,7 @@ namespace BuildRestApiNetCore.Models
       var materials = new [] { "Steel", "Wooden", "Concrete", "Plastic", "Granite", "Rubber" };
       var names = new [] { "Chair", "Car", "Computer", "Pants", "Shoes" };
       //var departments = new [] { "Books", "Movies", "Music", "Games", "Electronics" };
-      var departments = new [] { "Books", "Movies", "Music", "Sports", "Electronics" };
+      var departments = new [] { "Kindle", "Visual", "Audio", "Sports", "Digital" };
 
       context.Products.AddRange(900.Times(x =>
       {
