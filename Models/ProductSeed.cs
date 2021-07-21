@@ -13,8 +13,8 @@ namespace BuildRestApiNetCore.Models
       var adjectives = new [] { "Small", "Ergonomic", "Rustic", "Smart", "Sleek" };
       var materials = new [] { "Steel", "Wooden", "Concrete", "Plastic", "Granite", "Rubber" };
       var names = new [] { "Chair", "Car", "Computer", "Pants", "Shoes" };
-      var departments = new [] { "Books", "Movies", "Music", "Games", "Electronics" };
-      //var departments = new [] { "Kindle", "Visual", "Audio", "Sports", "Digital" };
+      //var departments = new [] { "Books", "Movies", "Music", "Games", "Electronics" };
+      var departments = new [] { "Kindle", "Visual", "Audio", "Sports", "Digital" };
 
       context.Products.AddRange(900.Times(x =>
       {
